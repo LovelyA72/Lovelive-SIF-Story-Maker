@@ -64,12 +64,12 @@ namespace LL_Story_Maker
                 graphics.DrawImage(Image.FromFile(".\\data\\image\\pink-textbox.png"),textBoxLocation);
 
                
-                using (Font arialFont = new Font("Arial", 12))
+                using (Font arialFont = new Font("Microsoft YaHei UI", 12))
                 {
                     //graphics.DrawString(firstText, arialFont, Brushes.Blue, firstLocation);
                     graphics.DrawString(storyText, arialFont, Brushes.White, textLocation);
                 }
-                using (Font arialFont = new Font("Arial", 10))
+                using (Font arialFont = new Font("Microsoft YaHei UI", 10))
                 {
                     graphics.DrawString(speakerName, arialFont, Brushes.White, speakerNameLocation);
                 }
