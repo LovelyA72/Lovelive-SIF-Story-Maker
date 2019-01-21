@@ -4,4 +4,4 @@ A fan-made .NET rewrite of the project [llsif-waifu-sim/llsif-waifu-sim.github.i
 ## Important
 Lovelive SIF Story Maker's source code is licensed under GNU GPL v3.
 
-Image resources under files folder have come from llsif-waifu-sim/llsif-waifu-sim.github.io. These resource files are copyrighted content from Bushiroad.
+Image resources under data folder have come from llsif-waifu-sim/llsif-waifu-sim.github.io. These resource files are copyrighted content from Bushiroad.

@@ -84,8 +84,8 @@
 mkdir "$(TargetDir)data\image"
 mkdir "$(TargetDir)data\bgimage"
 mkdir "$(TargetDir)data\fgimage"
-copy /Y "$(SolutionDir)files\image" "$(TargetDir)data\image"
-copy /Y "$(SolutionDir)files\bgimage" "$(TargetDir)data\bgimage"
-copy /Y "$(SolutionDir)files\fgimage" "$(TargetDir)data\fgimage"</PostBuildEvent>
+copy /Y "$(SolutionDir)data\image" "$(TargetDir)data\image"
+copy /Y "$(SolutionDir)data\bgimage" "$(TargetDir)data\bgimage"
+copy /Y "$(SolutionDir)data\fgimage" "$(TargetDir)data\fgimage"</PostBuildEvent>
   </PropertyGroup>
 </Project>
