@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace LL_Story_Maker
 {
-    public partial class Form1 : Form
+    public partial class MainUI : Form
     {
         private string bgImage = ".\\data\\bgimage\\background0.png";
         private int gcCounter = 0;
-        public Form1()
+        public MainUI()
         {
             InitializeComponent();
         }
@@ -78,6 +78,7 @@ namespace LL_Story_Maker
         }
         private Image updateCharactor() {
             AutoGC();
+
             Bitmap img = (Bitmap)Image.FromFile(bgImage);
             string char1File = ".\\data\\fgimage\\"+comboBox2.Text+"_" + comboBox5.Text + "_" + comboBox8.Text + ".png";
             string char2File = ".\\data\\fgimage\\" + comboBox3.Text + "_" + comboBox6.Text + "_" + comboBox9.Text + ".png";

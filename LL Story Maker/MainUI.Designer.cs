@@ -1,6 +1,6 @@
 ﻿namespace LL_Story_Maker
 {
-    partial class Form1
+    partial class MainUI
     {
         /// <summary>
         /// 必需的设计器变量。
