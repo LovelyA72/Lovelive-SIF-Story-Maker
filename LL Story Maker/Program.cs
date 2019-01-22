@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace LL_Story_Maker
 {
@@ -14,6 +15,9 @@ namespace LL_Story_Maker
         [STAThread]
         static void Main()
         {
+            if (!Directory.Exists(@".\savedata")) {
+                Directory.CreateDirectory(@".\savedata");
+            }
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainUI());
