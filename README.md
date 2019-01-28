@@ -3,6 +3,10 @@ A fan-made .NET rewrite of the project [llsif-waifu-sim/llsif-waifu-sim.github.i
 
 ![demo](demo.jpg)
 
+## Known Issues
+1. This program only works on High DPI display for now.
+2. This program will consume a high amount of RAM(but will not exceed 200MB).
+
 ## Important
 Lovelive SIF Story Maker's source code is licensed under GNU GPL v3.
 
